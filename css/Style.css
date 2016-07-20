@@ -1,11 +1,82 @@
-body {
-    background-color: lightblue;
+#container{
+	width: 992px;
+	margin: 02px auto;
 }
-h1 {
-    color: white;
-    text-align: center;
+
+#left-column{
+width: 33%;
+float:left;
+background: blue;
 }
-p {
-    font-family: verdana;
-    font-size: 20px;
+
+#middle-column{
+width: 33%;
+float:left;
+background: red;
 }
+
+#right-column{
+width: 33%;
+float:left;
+background: yellow;
+}
+
+@media (min-width: 992px) {
+	#container{
+	width: 100%;
+}
+
+	#left-column{
+	width: 33%;
+}
+
+	#middle-column{
+	width: 33%;
+}
+	
+	#right-column{
+	width: 34%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#container{
+	width: 100%;
+
+}
+
+	#left-column{
+	width: 50%;
+}
+
+	#middle-column{
+	width: 50%;
+}
+	
+	#right-column{
+width: 100%;
+}
+}
+
+@media (max-width: 767px) {
+	#container{
+	width: 100%;
+
+}
+
+	#left-column{
+	width: 100%;
+}
+
+	#middle-column{
+	width: 100%;
+}
+	
+	#right-column{
+	width: 100%;
+}
+}
+Style.txt
+Open with
+2 of 2 items
+Index.txtStyle.txtDisplaying Index.txt.
