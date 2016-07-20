@@ -80,3 +80,9 @@ Style.txt
 Open with
 2 of 2 items
 Index.txtStyle.txtDisplaying Index.txt.
+div {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0; 
+}
